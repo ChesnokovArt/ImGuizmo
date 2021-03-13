@@ -1314,7 +1314,7 @@ namespace ImGuizmo
                drawList->AddLine(baseSSpace, worldDirSSpace, colors[i + 1], lineThickness);
             }
 
-            drawList->AddCircleFilled(worldDirSSpace, circleSize, colors[i + 1])
+            drawList->AddCircleFilled(worldDirSSpace, circleSize, colors[i + 1]);
          }
       }
 
